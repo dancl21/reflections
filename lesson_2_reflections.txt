@@ -5,3 +5,7 @@ When I initalize a repository the .git hidden folder is created and git prepares
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a deliberate place to add files before you make a commit whereas the working directory contains all of the files that have been potentially changed or not changed. This allows you to only focus on the files that are important for that commit. So even though I had two files (lessons 1 and lessons 2 reflections) in my working directory, I only moved my lesson_1_reflections file to the staging area because that was the only file I wanted to commit at that time.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By doing a 'git diff --staged' you can verify that the files in the staging area, prior to a commit, contain only one logical change from the most recent commit in the repository.
