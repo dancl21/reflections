@@ -1,0 +1,4 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+When I am working for more than one computer, want to save a backup to "the cloud", want to share my work, or
+am collaborating with other developers.
